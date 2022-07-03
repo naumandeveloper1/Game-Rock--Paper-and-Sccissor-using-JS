@@ -1,0 +1,80 @@
+.bg-skyblue {
+  background: skyblue;
+}
+
+.capital {
+  text-transform: capitalize;
+  font-family: sans-serif;
+}
+
+.center {
+  text-align: center;
+  /* text-transform: uppercase; */
+  font-family: verdana;
+  font-weight: bolder;
+}
+
+.flex {
+  margin-top: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.red {
+  color: red;
+}
+
+.blue {
+  color: blue;
+}
+
+.yellow {
+  color: yellow;
+}
+
+.purple {
+  color: purple;
+}
+
+.chocolate {
+  color: chocolate;
+}
+
+/* main game board  design*/
+.board {
+  width: 80%;
+  height: 350px;
+  background: lightgreen;
+  color: white;
+  margin: 0 auto;
+  border: 2px solid yellow;
+}
+
+.board h2:first-child {
+  padding-top: 20px;
+  text-align: center;
+}
+
+.button {
+  margin: 0 auto;
+  width: 50%;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+button {
+  padding: 10px 20px;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-radius: 20px;
+  font-weight: bolder;
+  background: green;
+  color: white;
+  margin-right: 20px;
+  cursor: pointer;
+}
